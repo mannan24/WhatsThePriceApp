@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFCBEACC2C005B49008A41DF /* WhatsThePriceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCBEACB2C005B49008A41DF /* WhatsThePriceApp.swift */; };
+		FFCBEACE2C005B49008A41DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCBEACD2C005B49008A41DF /* ContentView.swift */; };
+		FFCBEAD02C005B4B008A41DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCBEACF2C005B4B008A41DF /* Assets.xcassets */; };
+		FFCBEAD32C005B4B008A41DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFCBEAD22C005B4B008A41DF /* Preview Assets.xcassets */; };
+		FFCBEADD2C005B4B008A41DF /* WhatsThePriceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCBEADC2C005B4B008A41DF /* WhatsThePriceTests.swift */; };
+		FFCBEAE72C005B4B008A41DF /* WhatsThePriceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCBEAE62C005B4B008A41DF /* WhatsThePriceUITests.swift */; };
+		FFCBEAE92C005B4B008A41DF /* WhatsThePriceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCBEAE82C005B4B008A41DF /* WhatsThePriceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFCBEAD92C005B4B008A41DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCBEAC02C005B49008A41DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCBEAC72C005B49008A41DF;
+			remoteInfo = WhatsThePrice;
+		};
+		FFCBEAE32C005B4B008A41DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFCBEAC02C005B49008A41DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFCBEAC72C005B49008A41DF;
+			remoteInfo = WhatsThePrice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FFCBEAC82C005B49008A41DF /* WhatsThePrice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsThePrice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCBEACB2C005B49008A41DF /* WhatsThePriceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsThePriceApp.swift; sourceTree = "<group>"; };
+		FFCBEACD2C005B49008A41DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FFCBEACF2C005B4B008A41DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFCBEAD22C005B4B008A41DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFCBEAD82C005B4B008A41DF /* WhatsThePriceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsThePriceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCBEADC2C005B4B008A41DF /* WhatsThePriceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsThePriceTests.swift; sourceTree = "<group>"; };
+		FFCBEAE22C005B4B008A41DF /* WhatsThePriceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsThePriceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFCBEAE62C005B4B008A41DF /* WhatsThePriceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsThePriceUITests.swift; sourceTree = "<group>"; };
+		FFCBEAE82C005B4B008A41DF /* WhatsThePriceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsThePriceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFCBEAC52C005B49008A41DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCBEAD52C005B4B008A41DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCBEADF2C005B4B008A41DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFCBEABF2C005B49008A41DF = {
+			isa = PBXGroup;
+			children = (
+				FFCBEACA2C005B49008A41DF /* WhatsThePrice */,
+				FFCBEADB2C005B4B008A41DF /* WhatsThePriceTests */,
+				FFCBEAE52C005B4B008A41DF /* WhatsThePriceUITests */,
+				FFCBEAC92C005B49008A41DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFCBEAC92C005B49008A41DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFCBEAC82C005B49008A41DF /* WhatsThePrice.app */,
+				FFCBEAD82C005B4B008A41DF /* WhatsThePriceTests.xctest */,
+				FFCBEAE22C005B4B008A41DF /* WhatsThePriceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFCBEACA2C005B49008A41DF /* WhatsThePrice */ = {
+			isa = PBXGroup;
+			children = (
+				FFCBEACB2C005B49008A41DF /* WhatsThePriceApp.swift */,
+				FFCBEACD2C005B49008A41DF /* ContentView.swift */,
+				FFCBEACF2C005B4B008A41DF /* Assets.xcassets */,
+				FFCBEAD12C005B4B008A41DF /* Preview Content */,
+			);
+			path = WhatsThePrice;
+			sourceTree = "<group>";
+		};
+		FFCBEAD12C005B4B008A41DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FFCBEAD22C005B4B008A41DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FFCBEADB2C005B4B008A41DF /* WhatsThePriceTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFCBEADC2C005B4B008A41DF /* WhatsThePriceTests.swift */,
+			);
+			path = WhatsThePriceTests;
+			sourceTree = "<group>";
+		};
+		FFCBEAE52C005B4B008A41DF /* WhatsThePriceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFCBEAE62C005B4B008A41DF /* WhatsThePriceUITests.swift */,
+				FFCBEAE82C005B4B008A41DF /* WhatsThePriceUITestsLaunchTests.swift */,
+			);
+			path = WhatsThePriceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFCBEAC72C005B49008A41DF /* WhatsThePrice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCBEAEC2C005B4B008A41DF /* Build configuration list for PBXNativeTarget "WhatsThePrice" */;
+			buildPhases = (
+				FFCBEAC42C005B49008A41DF /* Sources */,
+				FFCBEAC52C005B49008A41DF /* Frameworks */,
+				FFCBEAC62C005B49008A41DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatsThePrice;
+			productName = WhatsThePrice;
+			productReference = FFCBEAC82C005B49008A41DF /* WhatsThePrice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFCBEAD72C005B4B008A41DF /* WhatsThePriceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCBEAEF2C005B4B008A41DF /* Build configuration list for PBXNativeTarget "WhatsThePriceTests" */;
+			buildPhases = (
+				FFCBEAD42C005B4B008A41DF /* Sources */,
+				FFCBEAD52C005B4B008A41DF /* Frameworks */,
+				FFCBEAD62C005B4B008A41DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFCBEADA2C005B4B008A41DF /* PBXTargetDependency */,
+			);
+			name = WhatsThePriceTests;
+			productName = WhatsThePriceTests;
+			productReference = FFCBEAD82C005B4B008A41DF /* WhatsThePriceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFCBEAE12C005B4B008A41DF /* WhatsThePriceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFCBEAF22C005B4B008A41DF /* Build configuration list for PBXNativeTarget "WhatsThePriceUITests" */;
+			buildPhases = (
+				FFCBEADE2C005B4B008A41DF /* Sources */,
+				FFCBEADF2C005B4B008A41DF /* Frameworks */,
+				FFCBEAE02C005B4B008A41DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFCBEAE42C005B4B008A41DF /* PBXTargetDependency */,
+			);
+			name = WhatsThePriceUITests;
+			productName = WhatsThePriceUITests;
+			productReference = FFCBEAE22C005B4B008A41DF /* WhatsThePriceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFCBEAC02C005B49008A41DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FFCBEAC72C005B49008A41DF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FFCBEAD72C005B4B008A41DF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FFCBEAC72C005B49008A41DF;
+					};
+					FFCBEAE12C005B4B008A41DF = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FFCBEAC72C005B49008A41DF;
+					};
+				};
+			};
+			buildConfigurationList = FFCBEAC32C005B49008A41DF /* Build configuration list for PBXProject "WhatsThePrice" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFCBEABF2C005B49008A41DF;
+			productRefGroup = FFCBEAC92C005B49008A41DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFCBEAC72C005B49008A41DF /* WhatsThePrice */,
+				FFCBEAD72C005B4B008A41DF /* WhatsThePriceTests */,
+				FFCBEAE12C005B4B008A41DF /* WhatsThePriceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFCBEAC62C005B49008A41DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCBEAD32C005B4B008A41DF /* Preview Assets.xcassets in Resources */,
+				FFCBEAD02C005B4B008A41DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCBEAD62C005B4B008A41DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCBEAE02C005B4B008A41DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFCBEAC42C005B49008A41DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCBEACE2C005B49008A41DF /* ContentView.swift in Sources */,
+				FFCBEACC2C005B49008A41DF /* WhatsThePriceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCBEAD42C005B4B008A41DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCBEADD2C005B4B008A41DF /* WhatsThePriceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFCBEADE2C005B4B008A41DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCBEAE92C005B4B008A41DF /* WhatsThePriceUITestsLaunchTests.swift in Sources */,
+				FFCBEAE72C005B4B008A41DF /* WhatsThePriceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFCBEADA2C005B4B008A41DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFCBEAC72C005B49008A41DF /* WhatsThePrice */;
+			targetProxy = FFCBEAD92C005B4B008A41DF /* PBXContainerItemProxy */;
+		};
+		FFCBEAE42C005B4B008A41DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFCBEAC72C005B49008A41DF /* WhatsThePrice */;
+			targetProxy = FFCBEAE32C005B4B008A41DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFCBEAEA2C005B4B008A41DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFCBEAEB2C005B4B008A41DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFCBEAED2C005B4B008A41DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsThePrice/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.WhatsThePrice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFCBEAEE2C005B4B008A41DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WhatsThePrice/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.WhatsThePrice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFCBEAF02C005B4B008A41DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.WhatsThePriceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsThePrice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatsThePrice";
+			};
+			name = Debug;
+		};
+		FFCBEAF12C005B4B008A41DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.WhatsThePriceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WhatsThePrice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WhatsThePrice";
+			};
+			name = Release;
+		};
+		FFCBEAF32C005B4B008A41DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.WhatsThePriceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsThePrice;
+			};
+			name = Debug;
+		};
+		FFCBEAF42C005B4B008A41DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mk.WhatsThePriceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WhatsThePrice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFCBEAC32C005B49008A41DF /* Build configuration list for PBXProject "WhatsThePrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCBEAEA2C005B4B008A41DF /* Debug */,
+				FFCBEAEB2C005B4B008A41DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCBEAEC2C005B4B008A41DF /* Build configuration list for PBXNativeTarget "WhatsThePrice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCBEAED2C005B4B008A41DF /* Debug */,
+				FFCBEAEE2C005B4B008A41DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCBEAEF2C005B4B008A41DF /* Build configuration list for PBXNativeTarget "WhatsThePriceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCBEAF02C005B4B008A41DF /* Debug */,
+				FFCBEAF12C005B4B008A41DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFCBEAF22C005B4B008A41DF /* Build configuration list for PBXNativeTarget "WhatsThePriceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFCBEAF32C005B4B008A41DF /* Debug */,
+				FFCBEAF42C005B4B008A41DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFCBEAC02C005B49008A41DF /* Project object */;
+}
