@@ -17,21 +17,21 @@ struct ContentView: View {
 
     var body: some View {
         VStack(spacing: 30) {
-            Text("Price Comparator")
+            Text("WhatsThePrice")
                 .font(.largeTitle)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
-                .padding(.top, 60)
+                .padding(.top, 70)
 
             Spacer()
 
             VStack(spacing: 20) {
                 HStack(spacing: 10) {
-                    TextField("SGD Price", text: $priceInSGD)
+                    TextField("SGD", text: $priceInSGD)
                         .keyboardType(.decimalPad)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
-                        .background(Color.white)
+                        .background(Color.black)
                         .cornerRadius(10)
                         .shadow(radius: 5)
 
@@ -47,11 +47,11 @@ struct ContentView: View {
                     .cornerRadius(10)
                     .shadow(radius: 5)
 
-                    TextField("Destination Price", text: $priceInDestination)
+                    TextField("Destination", text: $priceInDestination)
                         .keyboardType(.decimalPad)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                         .padding()
-                        .background(Color.white)
+                        .background(Color.black)
                         .cornerRadius(10)
                         .shadow(radius: 5)
                 }
@@ -66,7 +66,7 @@ struct ContentView: View {
                 viewModel.convertAndCompare(priceInSGD: sgdPrice, priceInDestination: destinationPrice,destinationCurrency: destinationCurrency)
                 self.hideKeyboard()
             }) {
-                Text("Compare Prices")
+                Text("Convert")
                     .font(.headline)
                     .fontWeight(.bold)
                     .padding()
@@ -80,7 +80,7 @@ struct ContentView: View {
 
             VStack(spacing: 20) {
                 HStack {
-                    Text("Converted Price:")
+                    Text("Price:")
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
@@ -93,7 +93,7 @@ struct ContentView: View {
                 .padding()
 
                 HStack {
-                    Text("Comparison Result:")
+                    Text("")
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
