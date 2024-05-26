@@ -14,6 +14,8 @@
 		FFCBEADD2C005B4B008A41DF /* WhatsThePriceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCBEADC2C005B4B008A41DF /* WhatsThePriceTests.swift */; };
 		FFCBEAE72C005B4B008A41DF /* WhatsThePriceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCBEAE62C005B4B008A41DF /* WhatsThePriceUITests.swift */; };
 		FFCBEAE92C005B4B008A41DF /* WhatsThePriceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFCBEAE82C005B4B008A41DF /* WhatsThePriceUITestsLaunchTests.swift */; };
+		FFFA36852C02544E0090CD8E /* ForexResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFA36842C02544E0090CD8E /* ForexResponse.swift */; };
+		FFFA36872C0267670090CD8E /* ForexViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFA36862C0267670090CD8E /* ForexViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,9 @@
 		FFCBEAE22C005B4B008A41DF /* WhatsThePriceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsThePriceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFCBEAE62C005B4B008A41DF /* WhatsThePriceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsThePriceUITests.swift; sourceTree = "<group>"; };
 		FFCBEAE82C005B4B008A41DF /* WhatsThePriceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsThePriceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FFEFBFD02C033A880072525D /* WhatsThePrice.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WhatsThePrice.entitlements; sourceTree = "<group>"; };
+		FFFA36842C02544E0090CD8E /* ForexResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexResponse.swift; sourceTree = "<group>"; };
+		FFFA36862C0267670090CD8E /* ForexViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForexViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +99,9 @@
 		FFCBEACA2C005B49008A41DF /* WhatsThePrice */ = {
 			isa = PBXGroup;
 			children = (
+				FFEFBFD02C033A880072525D /* WhatsThePrice.entitlements */,
+				FFFA36862C0267670090CD8E /* ForexViewModel.swift */,
+				FFFA36842C02544E0090CD8E /* ForexResponse.swift */,
 				FFCBEACB2C005B49008A41DF /* WhatsThePriceApp.swift */,
 				FFCBEACD2C005B49008A41DF /* ContentView.swift */,
 				FFCBEACF2C005B4B008A41DF /* Assets.xcassets */,
@@ -258,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFCBEACE2C005B49008A41DF /* ContentView.swift in Sources */,
+				FFFA36852C02544E0090CD8E /* ForexResponse.swift in Sources */,
 				FFCBEACC2C005B49008A41DF /* WhatsThePriceApp.swift in Sources */,
+				FFFA36872C0267670090CD8E /* ForexViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,9 +429,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WhatsThePrice/WhatsThePrice.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatsThePrice/Preview Content\"";
+				DEVELOPMENT_TEAM = LNY9C33J44;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,6 +441,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,9 +460,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WhatsThePrice/WhatsThePrice.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WhatsThePrice/Preview Content\"";
+				DEVELOPMENT_TEAM = LNY9C33J44;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,6 +472,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
