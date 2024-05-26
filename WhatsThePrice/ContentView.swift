@@ -63,7 +63,8 @@ struct ContentView: View {
                     print("Invalid input.")
                     return
                 }
-                viewModel.convertAndCompare(priceInSGD: sgdPrice, priceInDestination: destinationPrice, destinationCurrency: destinationCurrency)
+                viewModel.convertAndCompare(priceInSGD: sgdPrice, priceInDestination: destinationPrice,destinationCurrency: destinationCurrency)
+                self.hideKeyboard()
             }) {
                 Text("Compare Prices")
                     .font(.headline)
@@ -110,12 +111,14 @@ struct ContentView: View {
         }
         .background(LinearGradient(gradient: Gradient(colors: [Color.gray, Color.black]), startPoint: .top, endPoint: .bottom))
         .edgesIgnoringSafeArea(.all)
-        .onAppear {
-            // Fetch initial exchange rates and currencies
-            viewModel.fetchExchangeRates {
-                // Initial fetch completion handler
-                // Do nothing here
-            }
+        .onTapGesture {
+            self.hideKeyboard()
         }
+    }
+}
+
+extension View {
+    func hideKeyboard() {
+        UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
 }
